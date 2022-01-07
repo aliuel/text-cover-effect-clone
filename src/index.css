@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    .title {
+        @apply uppercase text-[10vh] leading-[9vh] mr-[1vh]
+    }
+
+    .titlecover {
+        @apply h-[8vh] bg-black absolute
+    }
+
+
+}
